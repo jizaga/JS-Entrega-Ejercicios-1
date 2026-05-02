@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Ejercicio 9</title>
+  </head>
+  <body>
+    <h1>Lista de Tareas con LocalStorage</h1>
+    <h2>JS Ejercicio 9</h2>
+
+    <div>
+      <p>
+        <strong>Objetivo del ejercicio:</strong> Practicar persistencia de datos
+        con localStorage.
+      </p>
+      <p><strong>Ejercicio:</strong> Crea una aplicación de lista de tareas.</p>
+      <ul>
+        <li>
+          Cada tarea debe incluir un texto y un checkbox para marcarla como
+          completada.
+        </li>
+        <li>
+          Las tareas se deben guardar en localStorage para que persistan incluso
+          si la página se recarga.
+        </li>
+        <li>
+          Debe incluir un botón para limpiar todas las tareas completadas y
+          actualizar el localStorage.
+        </li>
+      </ul>
+    </div>
+    <hr />
+
+    <h1>Mis Tareas</h1>
+
+    <div class="input-group">
+      <input type="text" id="taskInput" placeholder="Añadir nueva tarea..." />
+      <button onclick="addTask()">Añadir</button>
+    </div>
+
+    <ul id="taskList"></ul>
+
+    <button id="clearCompleted" onclick="clearCompleted()">
+      Limpiar completadas
+    </button>
+
+    <script src="./js_ejercicio_9.js"></script>
+  </body>
+</html>

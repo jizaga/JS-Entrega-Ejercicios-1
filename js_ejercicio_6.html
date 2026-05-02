@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Ejercicio 6</title>
+  </head>
+  <body>
+    <h1>Temporizador con Inicio, Pausa y Reinicio</h1>
+    <h2>JS Ejercicio 6</h2>
+
+    <div>
+      <p>
+        <strong>Objetivo del ejercicio:</strong> Practicar manejo de eventos,
+        funciones de temporización y manipulación del DOM.
+      </p>
+      <p>
+        <strong>Ejercicio:</strong> Crea una página con un temporizador que
+        comience en 00:00:00. Incluye tres botones: “Iniciar”, “Pausar” y
+        “Reiniciar”.
+      </p>
+      <ul>
+        <li>
+          Al hacer clic en “Iniciar”, el temporizador debe comenzar a contar los
+          segundos, minutos y horas.
+        </li>
+        <li>“Pausar” detiene el conteo pero mantiene el tiempo actual.</li>
+        <li>“Reiniciar” pone el temporizador en 00:00:00.</li>
+      </ul>
+    </div>
+    <hr />
+
+    <div class="container">
+      <div id="display">00:00:00</div>
+      <div class="buttons">
+        <button id="start" onclick="startTimer()">Iniciar</button>
+        <button id="pause" onclick="pauseTimer()">Pausar</button>
+        <button id="reset" onclick="resetTimer()">Reiniciar</button>
+      </div>
+    </div>
+
+    <script src="./js_ejercicio_6.js"></script>
+  </body>
+</html>

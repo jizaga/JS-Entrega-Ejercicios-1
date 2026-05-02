@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Ejercicio 4</title>
+    <style>
+      /* Clase para ocultar elementos */
+      .oculto {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Filtro de Búsqueda en Tiempo Real</h1>
+    <h2>JS Ejercicio 4</h2>
+
+    <div>
+      <p>
+        <strong>Objetivo del ejercicio:</strong> Practicar la interacción entre
+        eventos del DOM y lógica en JavaScript.
+      </p>
+      <p>
+        <strong>Ejercicio:</strong> Crea una página con un campo de texto y una
+        lista predefinida de elementos.
+      </p>
+      <ul>
+        <li>
+          Mientras el usuario escribe en el campo, la lista debe actualizarse en
+          tiempo real para mostrar solo los elementos que contienen el texto
+          escrito.
+        </li>
+      </ul>
+      <p>
+        <strong>Ejemplo:</strong> Si la lista contiene
+        <strong>["Perro", "Gato", "Pez"]</strong> y el usuario escribe "Ga",
+        solo "Gato" debe quedar visible.
+      </p>
+    </div>
+    <hr />
+
+    <h2>Buscar Animales</h2>
+    <input
+      type="text"
+      id="campoBusqueda"
+      placeholder="Escribe para buscar..."
+    />
+
+    <ul id="listaElementos">
+      <li>Perro</li>
+      <li>Gato</li>
+      <li>Pez</li>
+      <li>Hámster</li>
+      <li>Loro</li>
+      <li>Conejo</li>
+    </ul>
+
+    <script src="./js_ejercicio_4.js"></script>
+  </body>
+</html>
